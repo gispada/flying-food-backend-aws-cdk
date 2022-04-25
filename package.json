@@ -1,5 +1,5 @@
 {
-  "name": "flying-food-backend",
+  "name": "flying-food-backend-aws-cdk",
   "version": "1.0.0",
   "bin": {
     "flying-food-backend": "bin/flying-food-backend.js"
