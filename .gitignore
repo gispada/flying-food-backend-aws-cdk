@@ -2,7 +2,10 @@
 !jest.config.js
 *.d.ts
 node_modules
-
+!src/layers/**/*
+build
+.env
+data/*.ddb.json
 # CDK asset staging directory
 .cdk.staging
 cdk.out

@@ -5,7 +5,9 @@
     "lib": [
       "es2018"
     ],
-    "declaration": true,
+    "baseUrl": ".",
+    "outDir": "build",
+    "declaration": false,
     "strict": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
@@ -15,14 +17,26 @@
     "noUnusedParameters": false,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": false,
-    "inlineSourceMap": true,
-    "inlineSources": true,
+    "inlineSourceMap": false,
+    "inlineSources": false,
     "experimentalDecorators": true,
     "strictPropertyInitialization": false,
     "typeRoots": [
       "./node_modules/@types"
-    ]
+    ],
+    "paths": {
+      "dynamo-service": [
+        "src/layers/dynamoService/nodejs/node_modules/dynamo-service"
+      ],
+      "types/*": [
+        "src/types/*"
+      ]
+    }
   },
+  "include": [
+    "src",
+    "src/layers/**/node_modules"
+  ],
   "exclude": [
     "node_modules",
     "cdk.out"

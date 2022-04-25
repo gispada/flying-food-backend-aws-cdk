@@ -1,14 +1,24 @@
-# Welcome to your CDK TypeScript project
+# Flying Food backend with AWS CDK
 
-This is a blank project for CDK development with TypeScript.
+Project for the Flying Food training app backend.
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+The cloud infrastructure is setup with **AWS CDK**; it's a simple stack with:
 
-## Useful commands
+- DynamoDB
+- Lambda functions (with a shared layer)
+- HTTP API Gateway
 
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `cdk deploy`      deploy this stack to your default AWS account/region
-* `cdk diff`        compare deployed stack with current state
-* `cdk synth`       emits the synthesized CloudFormation template
+## Folders structure
+
+- `src`: business logic source code (functions)
+- `lib`: CDK constructs to create the project stack
+- `data`: initial data that can be imported into DynamoDB
+- `scripts`: useful scripts
+
+## Commands
+
+- `npm run deploy`: compiles the source code and deploys the stack to AWS
+- `npm run seed`: populates DynamoDB tables with data inside the `data` folder (it must be run after deploy)
+- `cdk destroy`: tears down the stack
+
+> **Note**: `aws-cdk` and `aws-cli` needs to be globally installed and configured.
