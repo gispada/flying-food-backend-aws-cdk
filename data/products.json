@@ -457,8 +457,8 @@
     "delivery": "3c5a127b-281a-43fb-b1d7-8241abe03048",
     "discountRate": null,
     "price": {
-      "type": "YEN",
-      "value": 12.0
+      "type": "JPY",
+      "value": 1956.8
     },
     "size": {
       "value": 200,
