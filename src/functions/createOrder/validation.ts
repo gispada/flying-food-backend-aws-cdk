@@ -17,5 +17,5 @@ export const areStockEnough = (
   { items }: CreateOrderRequest,
   productsMap: Record<string, Product>
 ) => {
-  return items.every(({ id, quantity }) => productsMap[id].stock - quantity > 0)
+  return items.every(({ id, quantity }) => productsMap[id].stock - quantity >= 0)
 }
