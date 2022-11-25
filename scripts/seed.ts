@@ -2,6 +2,7 @@ import { join } from 'path'
 import { exec } from 'child_process'
 import { writeFileSync, readdirSync, readFileSync } from 'fs'
 import { DynamoDB } from 'aws-sdk'
+import type { PutRequest } from 'aws-sdk/clients/dynamodb'
 import { APP_NAME, DATA_PATH } from '../lib/constants'
 
 /*
@@ -17,7 +18,7 @@ const getDataPath = (path = '') => join(__dirname, `../${DATA_PATH}/${path}`)
 const dataFiles = readdirSync(getDataPath()).filter(isNotDdbFile)
 
 for (const filename of dataFiles) {
-  const content = []
+  const content: Record<string, PutRequest>[] = []
   const [resourceName] = filename.split('.')
 
   const fileContent = readFileSync(getDataPath(filename), { encoding: 'utf-8' })
