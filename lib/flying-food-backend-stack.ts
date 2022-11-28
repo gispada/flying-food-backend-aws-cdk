@@ -5,7 +5,8 @@ import { ManagedPolicy } from 'aws-cdk-lib/aws-iam'
 import { Code, LayerVersion, Runtime } from 'aws-cdk-lib/aws-lambda'
 import { HttpMethod } from '@aws-cdk/aws-apigatewayv2-alpha'
 import { DynamoDb } from './dynamoDb'
-import { LambdaApiGateway } from './lambdaApiGateway'
+// import { LambdaApiGateway } from './lambdaApiGateway'
+import { LambdaRestApiGateway } from './lambdaRestApiGateway'
 import { APP_NAME, LAYERS_PATH } from './constants'
 
 export class FlyingFoodBackendStack extends Stack {
@@ -44,7 +45,7 @@ export class FlyingFoodBackendStack extends Stack {
       layers: [dynamoDbLayer]
     }
 
-    new LambdaApiGateway(this, 'lambda-api-gateway', {
+    new LambdaRestApiGateway(this, 'lambda-api-gateway', {
       routes: [
         {
           path: '/{resource}',
