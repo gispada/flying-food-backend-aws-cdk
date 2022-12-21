@@ -4,7 +4,13 @@ import { GetItemsRequest } from 'types/index'
 
 const repository = new DynamoService()
 
-const headers = { 'content-type': 'application/json' }
+// Need to explicitly set CORS headers with REST API Gateway
+const headers = {
+  'content-type': 'application/json',
+  'access-control-allow-headers': 'Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token',
+  'access-control-allow-origin': '*',
+  'access-control-allow-methods': 'OPTIONS,GET'
+}
 
 export async function handler(
   event: APIGatewayProxyEvent

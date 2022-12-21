@@ -10,6 +10,7 @@ import {
   EndpointType,
   LogGroupLogDestination,
   MethodLoggingLevel,
+  Cors
 } from 'aws-cdk-lib/aws-apigateway'
 import { LambdaConfig, LambdaManager } from './lambdaManager'
 import { LogGroup, RetentionDays } from 'aws-cdk-lib/aws-logs'
@@ -39,7 +40,11 @@ export class LambdaRestApiGateway extends Construct {
     const restApi = new RestApi(this, 'rest-api-gw', {
       restApiName: 'Flying Food REST API',
       description: 'Flying Food REST API gateway with Lambda integration',
-      endpointTypes: [EndpointType.REGIONAL]
+      endpointTypes: [EndpointType.REGIONAL],
+      defaultCorsPreflightOptions: {
+        allowOrigins: Cors.ALL_ORIGINS,
+        allowMethods: Cors.ALL_METHODS
+      }
     })
 
     this.createUsagePlan(restApi)
@@ -77,6 +82,8 @@ export class LambdaRestApiGateway extends Construct {
   }
 
   createUsagePlan(api: RestApi) {
+    // TODO: configure permission to invoke Lambdas for this stage
+    // The 'prod' default stage is already configured with the right permission
     const devStage = new Stage(this, 'rest-gw-dev-stage', {
       stageName: 'dev',
       deployment: new Deployment(this, 'dev-deployment', { api }),
