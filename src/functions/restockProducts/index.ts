@@ -4,6 +4,13 @@ import { RestockProductsRequest } from 'types/index'
 
 const repository = new DynamoService()
 
+const headers = {
+  'content-type': 'application/json',
+  'access-control-allow-headers': 'Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token',
+  'access-control-allow-origin': '*',
+  'access-control-allow-methods': 'OPTIONS,GET'
+}
+
 export async function handler(
   event: APIGatewayProxyEvent
 ): Promise<APIGatewayProxyResult> {
@@ -26,7 +33,7 @@ export async function handler(
 
   return {
     statusCode: 200,
-    headers: { 'content-type': 'application/json' },
+    headers,
     body: JSON.stringify({ message: 'Products restocked successfully' })
   }
 }

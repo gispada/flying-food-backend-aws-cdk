@@ -3,6 +3,13 @@ import { util } from 'aws-sdk'
 import { CreateOrderRequest } from 'types/index'
 import { Product } from 'types/product.model'
 
+const headers = {
+  'content-type': 'application/json',
+  'access-control-allow-headers': 'Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token',
+  'access-control-allow-origin': '*',
+  'access-control-allow-methods': 'OPTIONS,GET'
+}
+
 export const keyBy = <T extends Record<string, any>>(array: T[], key: keyof T) =>
   array.reduce((acc, item) => ({ ...acc, [item[key]]: item }), {} as Record<string, T>)
 
@@ -30,6 +37,6 @@ export const createOrder = (
 
 export const getResponse = (statusCode: number, body: any) => ({
   statusCode,
-  headers: { 'content-type': 'application/json' },
+  headers,
   body: JSON.stringify(body)
 })
