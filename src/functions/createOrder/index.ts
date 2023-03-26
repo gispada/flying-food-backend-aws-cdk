@@ -11,14 +11,14 @@ export async function handler(
   event: APIGatewayProxyEvent
 ): Promise<APIGatewayProxyResult> {
   if (!event.body) {
-    return getResponse(400, { message: 'Invalid request' })
+    return getResponse(400, { message: 'Missing request body' })
   }
 
   try {
     const requestBody = JSON.parse(event.body) as CreateOrderRequest
 
     if (!isValidRequest(requestBody)) {
-      throw new Error('Invalid request body')
+      return getResponse(400, { message: 'Invalid request body' })
     }
 
     const { items } = requestBody

@@ -1,4 +1,4 @@
-export type Resource = 'products' | 'tags' | 'deliveries' | 'orders'
+export type Resource = 'products' | 'tags' | 'deliveries' | 'orders' | 'reviews'
 
 export type GetItemsRequest = {
   resource?: Resource
@@ -22,4 +22,18 @@ export type OrderItem = {
 export type CreateOrderRequest = {
   userId: string,
   items: OrderItem[]
+}
+
+export type ReviewsQueryParams = {
+  author?: string
+}
+
+export type ReviewsPathParams = {
+  productId: string
+}
+
+export type CreateReviewRequest = {
+  productId: string
+  text: string
+  author: string
 }

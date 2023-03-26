@@ -42,6 +42,7 @@ export class LambdaRestApiGateway extends Construct {
       description: 'Flying Food REST API gateway with Lambda integration',
       endpointTypes: [EndpointType.REGIONAL],
       defaultCorsPreflightOptions: {
+        allowHeaders: ['Content-Type', 'X-Amz-Date', 'Authorization', 'X-Api-Key', 'X-Amz-Security-Token'],
         allowOrigins: Cors.ALL_ORIGINS,
         allowMethods: Cors.ALL_METHODS
       }
@@ -55,6 +56,8 @@ export class LambdaRestApiGateway extends Construct {
     routes.forEach(({ handler, path, methods }) => {
       const [, root, ...pathSegments] = path.split('/')
       const lambdaHandler = this.lambdaManager.createLambda(handler)
+      // lambdaHandler.grantInvoke(new ServicePrincipal('apigateway.amazonaws.com'))
+      
       let resource = resourcesCache[root] ??= restApi.root.addResource(root)
 
       for (const segment of pathSegments) {
@@ -81,22 +84,26 @@ export class LambdaRestApiGateway extends Construct {
     return new LogGroupLogDestination(logGroup)
   }
 
-  createUsagePlan(api: RestApi) {
-    // TODO: configure permission to invoke Lambdas for this stage
-    // The 'prod' default stage is already configured with the right permission
-    const devStage = new Stage(this, 'rest-gw-dev-stage', {
-      stageName: 'dev',
-      deployment: new Deployment(this, 'dev-deployment', { api }),
+  createStage(name: string, deployment: Deployment) {
+    return new Stage(this, `rest-gw-${name}-stage`, {
+      stageName: name,
+      deployment,
       loggingLevel: MethodLoggingLevel.ERROR,
-      // accessLogDestination: this.createLogDestination(),
+      throttlingRateLimit: 100,
+      throttlingBurstLimit: 100
     })
+  }
+
+  createUsagePlan(api: RestApi) {
+    // const deployment = new Deployment(this, 'rest-api-gw-deployment', { api })
+    // const devStage = this.createStage('dev', deployment)
 
     const usagePlan = api.addUsagePlan('rest-gw-usage-plan', {
       name: 'Academy plan',
       description: 'Usage plan for academy training',
       quota: {
         period: Period.DAY,
-        limit: 500
+        limit: 2000
       },
       throttle: {
         burstLimit: 5,
@@ -105,9 +112,8 @@ export class LambdaRestApiGateway extends Construct {
     })
 
     usagePlan.addApiKey(this.createApiKey())
-    usagePlan.addApiStage({
-      stage: devStage
-    })
+    // usagePlan.addApiStage({ stage: devStage })
+    usagePlan.addApiStage({ stage: api.deploymentStage }) // Default prod stage
 
     return usagePlan
   }

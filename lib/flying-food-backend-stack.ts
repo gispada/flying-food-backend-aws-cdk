@@ -31,6 +31,11 @@ export class FlyingFoodBackendStack extends Stack {
           name: 'orders',
           partitionKey: 'id',
           sortKey: 'userId'
+        },
+        {
+          name: 'reviews',
+          partitionKey: 'productId',
+          sortKey: 'author'
         }
       ]
     })
@@ -86,6 +91,26 @@ export class FlyingFoodBackendStack extends Stack {
             policies: [dynamoDbPolicy],
             layers: [dynamoDbLayer]
           }
+        },
+        {
+          path: '/reviews/{productId}',
+          methods: [HttpMethod.GET],
+          handler: {
+            folder: 'getReviews',
+            description: 'Get all reviews for the specified product',
+            policies: [dynamoDbPolicy],
+            layers: [dynamoDbLayer]
+          }
+        },
+        {
+          path: '/reviews',
+          methods: [HttpMethod.POST],
+          handler: {
+            folder: 'createReview',
+            description: 'Create a review for the specified product',
+            policies: [dynamoDbPolicy],
+            layers: [dynamoDbLayer]
+          }
         }
       ]
     })
@@ -97,7 +122,7 @@ export class FlyingFoodBackendStack extends Stack {
       layerVersionName: `${APP_NAME}_dynamodb-layer`,
       description: 'Shared DynamoDB repository service',
       code: Code.fromAsset(join(__dirname, `../${LAYERS_PATH}/dynamoService`)),
-      compatibleRuntimes: [Runtime.NODEJS_14_X]
+      compatibleRuntimes: [Runtime.NODEJS_16_X]
     })
   }
 

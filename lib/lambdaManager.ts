@@ -42,7 +42,7 @@ export class LambdaManager extends Construct {
       functionName: functionId,
       code: Code.fromAsset(join(__dirname, `../${FUNCTIONS_PATH}/${folder}`)),
       handler: 'index.handler',
-      runtime: Runtime.NODEJS_14_X,
+      runtime: Runtime.NODEJS_16_X,
       role: this.createRole(config),
       logRetention: RetentionDays.ONE_WEEK,
       description,
