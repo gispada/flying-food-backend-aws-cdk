@@ -6,7 +6,7 @@ The cloud infrastructure is setup with **AWS CDK**; it's a simple stack with:
 
 - DynamoDB
 - Lambda functions (with a shared layer)
-- HTTP API Gateway
+- REST API Gateway
 
 ## Folders structure
 
