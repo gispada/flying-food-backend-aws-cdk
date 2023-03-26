@@ -1,0 +1,38 @@
+[
+  {
+    "text": "The best burger I've ever eaten!",
+    "productId": "98aad72e-653f-4f5d-a6b1-67aefbbe94a0",
+    "date": "2023-03-15T21:58:30.996+0200",
+    "author": "Mary99"
+  },
+  {
+    "text": "Terrible sushi! Not recommended. I got sick after eating it.",
+    "productId": "00b59df6-9705-43b7-ab47-783520812668",
+    "date": "2022-09-30T17:54:07.723+0100",
+    "author": "PedroGonzalez"
+  },
+  {
+    "text": "Not bad, but too expensive. And the size was too small.",
+    "productId": "98aad72e-653f-4f5d-a6b1-67aefbbe94a0",
+    "date": "2023-01-22T20:48:51.239+0200",
+    "author": "IAmShrek"
+  },
+  {
+    "text": "Consistently great pizza with great variety of toppings and styles. Service is fast too.",
+    "productId": "41e9cd71-76ad-4400-a9d4-c5393d46668b",
+    "date": "2022-12-02T19:22:30.504+0200",
+    "author": "Jonathan"
+  },
+  {
+    "text": "Authentic Italian pizza. Made just the way it was back in 1933, I'm sure. No other pizza compares to this one",
+    "productId": "9261bbbc-86d9-425a-85e1-79cdc4087f5e",
+    "date": "2023-01-27T21:07:49.750+0100",
+    "author": "Spongebob Squarepants"
+  },
+  {
+    "date": "2023-03-25T14:08:50.995Z",
+    "text": "Una pizza deprimente :(",
+    "productId": "3ba5fd86-2a37-4ba9-ac74-b43e30ffc29a",
+    "author": "Mariottide"
+  }
+]

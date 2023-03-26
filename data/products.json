@@ -2,7 +2,7 @@
   {
     "id": "3c8a9a55-08b1-4e91-89b9-840f76b27df6",
     "name": "Hawaii Burger",
-    "description": "Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.\n\nCurabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",
+    "description": "Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",
     "available": true,
     "new": false,
     "stock": 6,
@@ -11,7 +11,7 @@
     "discountRate": null,
     "price": {
       "type": "USD",
-      "value": 13.64
+      "value": 13.99
     },
     "size": {
       "value": 440,
@@ -25,7 +25,7 @@
   {
     "id": "98aad72e-653f-4f5d-a6b1-67aefbbe94a0",
     "name": "Hawaii Burger",
-    "description": "Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.\n\nMorbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.\n\nFusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.",
+    "description": "Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.",
     "available": true,
     "new": true,
     "stock": 7,
@@ -49,7 +49,7 @@
   {
     "id": "4522a6ee-37fb-4c16-9cf7-13270d8c1c77",
     "name": "Buffalo Burger",
-    "description": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\n\nEtiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.",
+    "description": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.",
     "available": true,
     "new": false,
     "stock": 2,
@@ -72,7 +72,7 @@
   {
     "id": "b1f02b29-45ad-4009-9e49-395dba872f5b",
     "name": "Hawaii Burger",
-    "description": "Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.\n\nDuis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.\n\nDonec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",
+    "description": "Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",
     "available": false,
     "new": true,
     "stock": 4,
@@ -96,7 +96,7 @@
   {
     "id": "b2c9b65e-c0b3-4545-8b57-fa09ea49e607",
     "name": "Burger King",
-    "description": "Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.\n\nQuisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.\n\nVestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.",
+    "description": "Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.",
     "available": true,
     "new": false,
     "stock": 10,
@@ -143,7 +143,7 @@
   {
     "id": "61142b06-3135-41a5-a73e-3944ac2c1b90",
     "name": "Burger King",
-    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.\n\nVestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.",
+    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.",
     "available": false,
     "new": false,
     "stock": 9,
@@ -166,7 +166,7 @@
   {
     "id": "23127383-818d-4428-826e-0579a9987e38",
     "name": "Wisconsin Burger",
-    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.\n\nVestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.\n\nDuis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.",
+    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.",
     "available": true,
     "new": true,
     "stock": 1,
@@ -189,7 +189,7 @@
   {
     "id": "f6be1b85-c0f6-418a-9431-4ac37028c306",
     "name": "Wisconsin Burger",
-    "description": "Phasellus in felis. Donec semper sapien a libero. Nam dui.\n\nProin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.",
+    "description": "Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.",
     "available": true,
     "new": true,
     "stock": 6,
@@ -237,7 +237,7 @@
   {
     "id": "b35aebc1-67d1-4351-b73c-ede827e842a9",
     "name": "Angus Burger",
-    "description": "Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.\n\nCras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\nProin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
+    "description": "Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
     "available": true,
     "new": false,
     "stock": 4,
@@ -260,7 +260,7 @@
   {
     "id": "b5e5d2b8-004a-4fba-83aa-d33a6d0865e6",
     "name": "Burger King",
-    "description": "Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.\n\nIn quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.\n\nMaecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",
+    "description": "Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",
     "available": true,
     "new": true,
     "stock": 9,
@@ -282,9 +282,57 @@
     "imageUrl": "https://flying-food-assets.s3.eu-central-1.amazonaws.com/burger-12.png"
   },
   {
+    "id": "a99f369f-e7fa-4ab6-9138-2446bea24f5f",
+    "name": "Black Burger Chuck",
+    "description": "Rem illum sunt aut minima sunt est illum dolorem vel alias aliquam sed voluptatem aperiam. At aspernatur fugiat est unde eius id ipsum temporibus qui placeat earum ea ducimus illo. Sit quam repudiandae et temporibus excepturi est similique quibusdam aut eaque esse aut quia aspernatur sit libero aliquid.",
+    "available": true,
+    "new": true,
+    "stock": 12,
+    "rating": 3.74,
+    "delivery": "3c5a127b-281a-43fb-b1d7-8241abe03048",
+    "discountRate": 0.1,
+    "price": {
+      "type": "USD",
+      "value": 19.99
+    },
+    "size": {
+      "value": 420,
+      "type": "gram"
+    },
+    "tags": [
+      "38d750f9-e7d5-4fa1-b1f7-93008a5a5a72",
+      "9a485e6d-260b-4de0-9261-69e0586e22e0"
+    ],
+    "imageUrl": "https://flying-food-assets.s3.eu-central-1.amazonaws.com/burger-13.png"
+  },
+  {
+    "id": "58b5b337-c62c-4d44-8877-68129d968070",
+    "name": "Vegan Burger",
+    "description": "Est consequatur magnam et tenetur aperiam a vero doloribus ab omnis similique? Eos nemo voluptatem qui quaerat accusantium est voluptates aliquid est quae explicabo est nihil tenetur et repudiandae omnis.",
+    "available": true,
+    "new": false,
+    "stock": 10,
+    "rating": 4.35,
+    "delivery": "3c5a127b-281a-43fb-b1d7-8241abe03048",
+    "discountRate": null,
+    "price": {
+      "type": "EUR",
+      "value": 14.80
+    },
+    "size": {
+      "value": 300,
+      "type": "gram"
+    },
+    "tags": [
+      "38d750f9-e7d5-4fa1-b1f7-93008a5a5a72",
+      "baacf841-cea2-4288-a6be-2ab804ccec14"
+    ],
+    "imageUrl": "https://flying-food-assets.s3.eu-central-1.amazonaws.com/burger-15.png"
+  },
+  {
     "id": "3b44b5ec-d6ce-4c2b-a75c-c1ac2ca2912a",
     "name": "Pizza Paradise",
-    "description": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\nProin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.\n\nAenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.",
+    "description": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.",
     "available": true,
     "new": false,
     "stock": 10,
@@ -331,7 +379,7 @@
   {
     "id": "8406a2b1-c9c6-4a2f-b151-27d9d30b78ed",
     "name": "Broadway Pizza",
-    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.\n\nVestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.",
+    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.",
     "available": true,
     "new": false,
     "stock": 2,
@@ -355,7 +403,7 @@
   {
     "id": "fc3c30ba-0fc7-41d8-bc75-91683c8d90a2",
     "name": "Pizza Patron",
-    "description": "Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.\n\nDuis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.",
+    "description": "Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.",
     "available": true,
     "new": true,
     "stock": 3,
@@ -377,8 +425,8 @@
   },
   {
     "id": "9261bbbc-86d9-425a-85e1-79cdc4087f5e",
-    "name": "Papa John’s",
-    "description": "Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.\n\nIn sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.\n\nSuspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
+    "name": "Papa John's",
+    "description": "Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
     "available": true,
     "new": false,
     "stock": 9,
@@ -402,7 +450,7 @@
   {
     "id": "41e9cd71-76ad-4400-a9d4-c5393d46668b",
     "name": "Speedy Gonzalez",
-    "description": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.\n\nVestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.",
+    "description": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.",
     "available": true,
     "new": false,
     "stock": 10,
@@ -425,7 +473,7 @@
   {
     "id": "d0d20da8-0d28-40d0-aa30-5e9b7915ed7f",
     "name": "Speedy Gonzalez",
-    "description": "Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.\n\nMorbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",
+    "description": "Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",
     "available": false,
     "new": true,
     "stock": 8,
@@ -449,7 +497,7 @@
   {
     "id": "8987aef0-c8e8-4066-b9fd-e6b64b51f586",
     "name": "Ikura",
-    "description": "In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.\n\nAliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.\n\nSed ante. Vivamus tortor. Duis mattis egestas metus.",
+    "description": "In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus.",
     "available": true,
     "new": true,
     "stock": 9,
@@ -472,7 +520,7 @@
   {
     "id": "ce8b994c-bc21-460c-b994-b9e9d28e7e2f",
     "name": "Hokkigai",
-    "description": "Fusce consequat. Nulla nisl. Nunc nisl.\n\nDuis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",
+    "description": "Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",
     "available": true,
     "new": true,
     "stock": 9,
@@ -519,7 +567,7 @@
   {
     "id": "a4c7455c-1929-47b8-b873-8c9ddd4e159d",
     "name": "Unagi",
-    "description": "Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.\n\nDuis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.\n\nMauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",
+    "description": "Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",
     "available": true,
     "new": true,
     "stock": 5,
@@ -542,7 +590,7 @@
   {
     "id": "1d4f694c-d352-47c2-8da9-a48ce231f5a8",
     "name": "Hamachi",
-    "description": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.\n\nPhasellus in felis. Donec semper sapien a libero. Nam dui.\n\nProin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.",
+    "description": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.",
     "available": true,
     "new": true,
     "stock": 10,
@@ -562,5 +610,121 @@
       "9a485e6d-260b-4de0-9261-69e0586e22e0"
     ],
     "imageUrl": "https://flying-food-assets.s3.eu-central-1.amazonaws.com/sushi-5.png"
+  },
+  {
+    "id": "2a44a346-3614-4d08-9e0d-def114272521",
+    "name": "Coca Cola",
+    "description": "Vel soluta autem quo quia veritatis quo ducimus illum sit amet iure et galisum quod ex aliquid officia! Qui officia velit ex repellendus pariatur sed repellendus iusto!",
+    "available": true,
+    "new": false,
+    "stock": 10,
+    "rating": 4.8,
+    "delivery": "c8f067e6-298f-4c74-a8b1-72c985a6554b",
+    "discountRate": null,
+    "price": {
+      "type": "USD",
+      "value": 3.14
+    },
+    "size": {
+      "value": 330,
+      "type": "ml"
+    },
+    "tags": [
+      "534ed6f7-be81-4af3-9c27-ebb8acd2e946"
+    ],
+    "imageUrl": "https://flying-food-assets.s3.eu-central-1.amazonaws.com/drink-1.png"
+  },
+  {
+    "id": "d1b57f6f-6bbb-43a9-b0c5-9a69c0b81c18",
+    "name": "Pepsi",
+    "description": "Vel soluta autem quo quia veritatis quo ducimus illum sit amet iure et galisum quod ex aliquid officia! Qui officia velit ex repellendus pariatur sed repellendus iusto!",
+    "available": true,
+    "new": false,
+    "stock": 12,
+    "rating": 4.41,
+    "delivery": "c8f067e6-298f-4c74-a8b1-72c985a6554b",
+    "discountRate": null,
+    "price": {
+      "type": "USD",
+      "value": 2.75
+    },
+    "size": {
+      "value": 200,
+      "type": "ml"
+    },
+    "tags": [
+      "534ed6f7-be81-4af3-9c27-ebb8acd2e946"
+    ],
+    "imageUrl": "https://flying-food-assets.s3.eu-central-1.amazonaws.com/drink-2.png"
+  },
+  {
+    "id": "0e3cccfc-245a-4212-83c0-a09d35a3785f",
+    "name": "Fanta",
+    "description": "Ea commodi dignissimos in quas quas ab praesentium impedit et laboriosam quia aut quam consequuntur. Et pariatur suscipit ut laborum quam ut galisum ipsam est omnis nihil id nemo labore et quas nihil At sint omnis.",
+    "available": true,
+    "new": false,
+    "stock": 8,
+    "rating": 4.6,
+    "delivery": "c8f067e6-298f-4c74-a8b1-72c985a6554b",
+    "discountRate": null,
+    "price": {
+      "type": "USD",
+      "value": 2.69
+    },
+    "size": {
+      "value": 330,
+      "type": "ml"
+    },
+    "tags": [
+      "534ed6f7-be81-4af3-9c27-ebb8acd2e946"
+    ],
+    "imageUrl": "https://flying-food-assets.s3.eu-central-1.amazonaws.com/drink-3.png"
+  },
+  {
+    "id": "e39943a5-6ca9-48bf-80d9-292c110d7948",
+    "name": "Water",
+    "description": "Hic nulla quasi eum voluptas voluptas qui perferendis architecto. Sed similique nihil eum dolor enim et distinctio neque aut sequi possimus.",
+    "available": true,
+    "new": false,
+    "stock": 20,
+    "rating": 4.92,
+    "delivery": "c8f067e6-298f-4c74-a8b1-72c985a6554b",
+    "discountRate": null,
+    "price": {
+      "type": "EUR",
+      "value": 2.5
+    },
+    "size": {
+      "value": 500,
+      "type": "ml"
+    },
+    "tags": [
+      "534ed6f7-be81-4af3-9c27-ebb8acd2e946"
+    ],
+    "imageUrl": "https://flying-food-assets.s3.eu-central-1.amazonaws.com/drink-4.png"
+  },
+  {
+    "id": "cde7af9d-beb4-42af-b587-9bb23c9f3c7b",
+    "name": "Heineken Beer",
+    "description": "Aut sapiente dolorum nam voluptatibus modi est quasi dolorem! Et voluptatem omnis ut maxime enim et aperiam delectus. Ut quam dolorem ut esse nisi qui porro repudiandae vel incidunt galisum id dolor optio id pariatur aspernatur quo velit sapiente.",
+    "available": true,
+    "new": false,
+    "stock": 10,
+    "rating": 3.84,
+    "delivery": "c8f067e6-298f-4c74-a8b1-72c985a6554b",
+    "discountRate": null,
+    "price": {
+      "type": "EUR",
+      "value": 3.2
+    },
+    "size": {
+      "value": 330,
+      "type": "ml"
+    },
+    "tags": [
+      "534ed6f7-be81-4af3-9c27-ebb8acd2e946",
+      "9a485e6d-260b-4de0-9261-69e0586e22e0"
+    ],
+    "imageUrl": "https://flying-food-assets.s3.eu-central-1.amazonaws.com/drink-5.png"
   }
 ]

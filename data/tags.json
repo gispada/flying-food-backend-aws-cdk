@@ -30,5 +30,10 @@
     "id": "9a485e6d-260b-4de0-9261-69e0586e22e0",
     "name": "Special",
     "namePlural": "Special"
+  },
+  {
+    "id": "534ed6f7-be81-4af3-9c27-ebb8acd2e946",
+    "name": "Drink",
+    "namePlural": "Drinks"
   }
 ]
