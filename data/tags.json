@@ -2,23 +2,27 @@
   {
     "id": "38d750f9-e7d5-4fa1-b1f7-93008a5a5a72",
     "name": "Burger",
-    "namePlural": "Burgers"
+    "namePlural": "Burgers",
+    "imageUrl": "https://flying-food-assets.s3.eu-central-1.amazonaws.com/tag-burger.png"
   },
   {
     "id": "80300013-10a3-4537-9d5a-6176d2220b4e",
     "name": "Ice cream",
     "namePlural": "Ice creams",
-    "hidden": true
+    "hidden": true,
+    "imageUrl": "https://flying-food-assets.s3.eu-central-1.amazonaws.com/tag-icecream.png"
   },
   {
     "id": "5c25f0df-e4d6-4f3d-b6a4-eb096b4ed880",
     "name": "Pizza",
-    "namePlural": "Pizzas"
+    "namePlural": "Pizzas",
+    "imageUrl": "https://flying-food-assets.s3.eu-central-1.amazonaws.com/tag-pizza.png"
   },
   {
     "id": "259abf21-a459-4d04-be6b-4600c304eca0",
     "name": "Sushi",
-    "namePlural": "Sushi"
+    "namePlural": "Sushi",
+    "imageUrl": "https://flying-food-assets.s3.eu-central-1.amazonaws.com/tag-sushi.png"
   },
   {
     "id": "baacf841-cea2-4288-a6be-2ab804ccec14",
@@ -29,11 +33,13 @@
   {
     "id": "9a485e6d-260b-4de0-9261-69e0586e22e0",
     "name": "Special",
-    "namePlural": "Special"
+    "namePlural": "Special",
+    "imageUrl": "https://flying-food-assets.s3.eu-central-1.amazonaws.com/tag-special.png"
   },
   {
     "id": "534ed6f7-be81-4af3-9c27-ebb8acd2e946",
     "name": "Drink",
-    "namePlural": "Drinks"
+    "namePlural": "Drinks",
+    "imageUrl": "https://flying-food-assets.s3.eu-central-1.amazonaws.com/tag-drinks.png"
   }
 ]
